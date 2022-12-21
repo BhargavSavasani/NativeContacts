@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NativeContacts</string>
+    <string name="msg_no_permission_contact"># does not have access to your Contact. To enable access,\n\nTap Settings > Permissions and turn on Contact Permission.</string>
+</resources>
