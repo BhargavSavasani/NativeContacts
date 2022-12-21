@@ -1,5 +1,20 @@
 # Native Contacts
 
+
+**Features**
+=============
+* Get all native Contacts with all details
+* No need to ask permission direct call this function an get all contacts
+* ✨Fast Working ✨
+
+**Usage**
+=============
+```sh
+ContactProvider.getNativeContacts(context) { contactList ->
+    //this is native contactList
+}
+```
+
 **Installation**
 =============
 Add it in your root build.gradle at the end of repositories:
@@ -16,20 +31,6 @@ allprojects {
 Add the dependency
 ```sh
 dependencies {
-    implementation 'com.github.BhargavSavasani:NativeContacts:Tag'
-}
-```
-
-**Features**
-=============
-* Get all native Contacts with all details
-* No need to ask permission direct call this function an get all contacts
-* ✨Fast Working ✨
-
-**Usage**
-=============
-```sh
-ContactProvider.getNativeContacts(context) { contactList ->
-    //this is native contactList
+    implementation 'com.github.BhargavSavasani:NativeContacts:1.0.0'
 }
 ```
