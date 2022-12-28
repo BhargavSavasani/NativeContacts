@@ -31,6 +31,6 @@ allprojects {
 Add the dependency
 ```sh
 dependencies {
-    implementation 'com.github.BhargavSavasani:NativeContacts:1.0.0'
+    implementation 'com.github.bhargavsavasani:NativeContacts:1.0.0'
 }
 ```
